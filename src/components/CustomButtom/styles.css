@@ -1,0 +1,35 @@
+.btn-container {
+    display: flex;
+}
+
+.field-search-container {
+    width: 60vw;;
+    max-width: 900px;
+}
+
+.field-search-container input {
+    width: 100%;
+    height: 40px;
+    border: none;
+    background: #FFFFFF;
+    border-radius: 5px 0px 0px 5px;
+    padding-left: 13.5px;
+}
+
+.field-search-container input::placeholder {
+    height: 16px;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.btn-search-container button {
+    width: 77px;
+    height: 40px;
+    border-radius: 0px 5px 5px 0px;
+    background-color: #00285F;
+    color: #fff;
+}
+
+.btn-search-container button:hover {
+    background-color: rgba(0, 40, 95, 0.8);
+}

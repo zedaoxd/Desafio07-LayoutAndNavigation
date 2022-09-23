@@ -1,0 +1,127 @@
+.card-container {
+    margin: 30px 0px;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    background-color: #00285F;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-image-container {
+    text-align: center;
+}
+
+.home-image-container svg {
+    margin-top: 62px;
+    margin-bottom: 32px;
+    width: 244px;
+    height: 146px;
+}
+
+.home-content {
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.home-content h2 {
+    margin: 0 auto;
+    width: 90%;
+    font-size: 22px;
+    line-height: 25px;
+    font-weight: bold;
+}
+
+.home-content p {
+    margin: 0 auto;
+    width: 90%;
+    font-size: 14px;
+    line-height: 21.09px;
+    padding-top: 13px;
+    padding-bottom: 41px;
+}
+
+.main-container {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #EDEDED;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.main-container button {
+    width: 170px;
+    height: 40px;
+    background-color: #00285F;
+    border-radius: 5px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.main-container h2 {
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 10px;
+    padding-left: 16px;
+}
+
+@media (min-width: 576px) {
+    .main-container{
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    .home-content h2 {
+        font-size: 36px;
+    }
+
+    .home-content p {
+        font-size: 18px;
+    }
+
+    .main-container {
+        padding-left: 85px;
+    }
+
+    .home-image-container svg {
+        width: 333px;
+        height: 199px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .card-container {
+        margin: 30px 0;
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+
+    .home-image-container {
+        padding-right: 78px;
+    }
+
+    .home-image-container svg {
+        width: 455px;
+        height: 272px;
+    }
+
+    .home-content {
+        height: 365px;
+        text-align: left;
+    }
+
+    .home-content h2 {
+        padding-top: 140px;
+    }
+}

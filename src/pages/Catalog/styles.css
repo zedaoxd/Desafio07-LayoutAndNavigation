@@ -1,0 +1,14 @@
+.search-container {
+    height: 86px;
+    display: flex;
+    background-color: #EDEDED;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width: 576px) {
+    .search-container {
+        height: 123px;
+    }
+}

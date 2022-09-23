@@ -1,0 +1,29 @@
+.main-nav {
+    min-height: 70px;
+}
+
+.nav-logo-text,
+.nav-logo-text:hover {
+    font-size: 24px;
+    color: #00285F;
+}
+
+.navbar-nav li {
+    padding-left: 48px;
+}
+
+.main-menu {
+    font-size: 18px;
+}
+
+.main-menu a {
+    color: #00285F;
+}
+
+.main-menu a:hover {
+    color: #fff;
+}
+
+.main-menu a.active {
+    font-weight: bold;
+}
