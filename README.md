@@ -1,46 +1,51 @@
-# Getting Started with Create React App
+# Desafio Validação e Segurança
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Sobre o projeto
 
-## Available Scripts
+Link: https://layout-and-navigation.netlify.app/
 
-In the project directory, you can run:
+Este é o primeiro desafio do **Bootcamp React** da [DevSuperior](https://devsuperior.com.br/cursos) cuja aulas estão sendo ministradas pelo professor [Nelio Alves](https://www.linkedin.com/in/nelio-alves/?originalSubdomain=br).
 
-### `yarn start`
+O desafio consistia em implementar um site responsivo, respeitando o modelo que o "designer" passou.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Layout desktop
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+![Screenshot_1](https://user-images.githubusercontent.com/55067151/192030201-2465a738-f43b-48fa-8139-b23ca0d3d944.png)
+![Screenshot_3](https://user-images.githubusercontent.com/55067151/192030460-d9609526-aa5e-4440-aaef-0c3f0d26bacd.png)
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Layout mobile
 
-### `yarn build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![Screenshot_5](https://user-images.githubusercontent.com/55067151/192030319-9a6abaf0-0fd2-4486-a3e0-3a2e0c9bdb59.png)
+![Screenshot_4](https://user-images.githubusercontent.com/55067151/192030321-c8cc1f27-aa87-4253-94d8-b2393742aa12.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Tecnologias utilizadas
+- JavaScript
+- TypeScript
+- ReactJS
 
-### `yarn eject`
+## Como executar o projeto
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Pré-requisitos: 
+- node 14
+- yarn 1.22
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Clone o projeto
+```bash
+# clonar repositório
+git clone https://github.com/zedaoxd/Desafio07-LayoutAndNavigation.git
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+# entre na pasta
+cd Desafio07-LayoutAndNavigation
 
-## Learn More
+# rode com o comando
+yarn start
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Autor
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+[Bruno Lessa Ferraz](https://www.linkedin.com/in/bruno-lessa-ferraz/)
+
