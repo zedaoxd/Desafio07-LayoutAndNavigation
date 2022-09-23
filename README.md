@@ -16,9 +16,8 @@ O desafio consistia em implementar um site responsivo, respeitando o modelo que 
 
 ## Layout mobile
 
-
-![Screenshot_5](https://user-images.githubusercontent.com/55067151/192030319-9a6abaf0-0fd2-4486-a3e0-3a2e0c9bdb59.png)
-![Screenshot_4](https://user-images.githubusercontent.com/55067151/192030321-c8cc1f27-aa87-4253-94d8-b2393742aa12.png)
+<img src="https://user-images.githubusercontent.com/55067151/192030319-9a6abaf0-0fd2-4486-a3e0-3a2e0c9bdb59.png" alt="layout mobile main" width="350"/>
+<img src="https://user-images.githubusercontent.com/55067151/192030321-c8cc1f27-aa87-4253-94d8-b2393742aa12.png" alt="layout mobile catalog" width="350"/>
 
 
 ## Tecnologias utilizadas
